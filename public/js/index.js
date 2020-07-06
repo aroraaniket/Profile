@@ -1,12 +1,3 @@
-/*========================================================================
-EXCLUSIVE ON themeforest.net
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Template Name   : RYAN
-Author          : mital_04
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Copyright (c) 2018 - mital_04
-========================================================================*/
-
 (function ($) {
   'use strict';
   var RYAN = {};
@@ -38,6 +29,9 @@ Copyright (c) 2018 - mital_04
       }
     });
   };
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
 
   /*--------------------
       * Smooth Scroll
@@ -78,7 +72,7 @@ Copyright (c) 2018 - mital_04
   };
 
   /*--------------------
-      * Progress Bar 
+      * Progress Bar
   ----------------------*/
   RYAN.ProgressBar = function () {
     $('.progress .progress-bar').each(function () {

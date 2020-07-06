@@ -248,6 +248,7 @@ body {
   background: #111;
   box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
 }
+
 /*donot know why*/
 @media (max-width: 480px) and (min-width: 320px) {
   nav {
@@ -1098,6 +1099,7 @@ h1::after {
   .btn-dark{
     padding: 4px 8px 4px 8px;
   }
+  
 }
 @media screen and (min-width: 1000px) {
   .button {
