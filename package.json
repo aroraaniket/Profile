@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "10.16.0"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemailer": "^6.4.10",
