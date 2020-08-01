@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/index.html'));
 });
 app.get('/download', (req, res) => {
-  res.download(path.join(__dirname, 'public/resume/Resume.pdf'));
+  res.download(path.join(__dirname, 'public/resume/AniketAroraResume.pdf'));
 });
 app.post('/', (req, res) => {
   console.log('Data:', req.body);
