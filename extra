@@ -1,0 +1,264 @@
+<div id="loading" style="display: none;">
+    <div class="load-circle"><span class="one"></span></div>
+  </div>
+
+  <header>
+    <nav class="navbar header-nav fixed-top navbar-expand-lg fixed-header">
+      <div class="container" >
+        <!-- Brand -->
+        <!-- / -->
+        <a class="navbar-brand" href="#">  <img  style="width: 55px;"
+          src="images/github_octocat.png" alt=""><span class="theme-bg">
+         
+        </span></a>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarRyan"
+          aria-controls="navbarRyan"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <!-- / -->
+
+        <!-- Top Menu -->
+        <div
+          class=" navbar-collapse justify-content-end collapse"
+          id="navbarRyan"
+        >
+          <ul class="navbar-nav">
+            <li><a class="nav-link active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About </a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- / -->
+      </div> 
+      <!-- Container -->
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!--Header ends-->
+<!--Home section starts-->
+  <main>
+    <section
+      id="home"
+      class="home-banner gray-bg"
+      style="background:black;"
+    >
+      <div class="sec-round">
+        <div class="container full-height">
+          <div class="round-item round-item-1"></div>
+          <div class="round-item round-item-2"></div>
+          <div class="round-item round-item-3"></div>
+          <div class="round-item round-item-4"></div>
+          <div class="round-item round-item-5"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row full-screen align-items-center">
+          <div class="col col-md-12 col-lg-8 col-xl-6 p-80px-tb">
+            <div class="home-text-center theme-after m-50px-t  animated zoomIn">
+              <h4>Hello, my name is</h4>
+              <h5 class="font-alt">Aniket Arora
+                
+              </h5>
+              <p>
+                I'm full stack Web developer
+              </p>
+              <div class="btn-bar">
+                <a href="https://drive.google.com/file/d/1H64ibwjISfrerFwaj4Tf7uBHhhsQvRsk/view?usp=sharing"
+target="_blank"  rel="noreferrer noopener"                  >GET CV</a
+                >
+              </div> 
+            </div>
+            <!-- home-text-center -->
+          </div>
+          <!-- col -->
+        </div>
+      </div>
+<!--waste-->
+
+<!---->
+
+      <!-- container -->
+      <a href="#about" data-scroll="smooth" class="mouse-icon hidden-sm  animated zoomIn delay-1s"
+        ><span class="wheel"></span
+      ></a>
+  <!---   <canvas
+      id="particles-js"
+      class="particles-js-canvas-el"
+      
+      width="360"
+      height="640"
+      style="width: 100%; height: 100%;"
+      ></canvas>-->
+     
+    </section>
+  </main>
+<!--Home section ends-->
+  
+
+
+  <!--ABout Section-->
+<section id="about">
+<h1 style= "font-weight: 700" data-aos="fade-down">About</h1>
+<div class="row ">
+<div  id="left" class="col-lg-6 " data-aos="fade-right">
+
+<img  src="images/b8d8a7d1-306a-4480-858a-fd9bdff951c6.png" alt="">
+<p>Hi, I'm Aniket Arora, I'm 19 years old and I'm currently an undergrad pursuing
+ a B.Tech in Information technology at Maharaja Surajmal Institue of Technology, Delhi, India. 
+ I'm a Full-stack web developer . 
+ I love to learn and implement.
+
+</p>
+</div>
+<div id="right" class="col-lg-6" data-aos="fade-left">
+<div >
+  <h3>Skill Set</h3>
+  <div class="skillsContainer">
+    <span class="badge badge-primary indivSkill">Web Development</span>
+    <span class="badge badge-primary indivSkill">reactJs</span>
+    <span class="badge badge-primary indivSkill">Redux</span>
+    <span class="badge badge-primary indivSkill">nodeJs</span>
+    <span class="badge badge-primary indivSkill">HTML</span>
+    <span class="badge badge-primary indivSkill">CSS</span>
+    <span class="badge badge-primary indivSkill">bootstrap</span>
+    <span class="badge badge-primary indivSkill">MongoDB</span>
+    <span class="badge badge-primary indivSkill">expresJs</span>
+    <span class="badge badge-primary indivSkill">JAVASCRIPT</span>
+    <span class="badge badge-primary indivSkill">C</span>
+    <span class="badge badge-primary indivSkill">C++</span>
+    <span class="badge badge-primary indivSkill">DS&Algo</span>
+    
+    </div>
+  </div>
+</div>
+</div>
+
+</section>
+<!--About section ends-->
+
+<!--Edducation new section-->
+<div id="education">
+<h1 style="font-weight: 700;" data-aos="fade-down">Education</h1>
+<div class="LeftPanelOthers">
+
+  <div class="row" data-aos="fade-right">
+  <div class="tabsOthers col-lg-4">  
+    <ul class="complicatedDiv">
+      <li class="absoluteContainer">
+        <h5>College</h5>
+        <h6>Maharaja Surajmal Institute of Technology</h6>
+       
+        <p>Indraprastha University</p>
+        <p>B.Tech <b>(IT)</b></p>
+        <p>Delhi</p>
+        <p>Graduation Year: 2022</p>
+        <h5>CGPA:8.2</h5>
+      </li>
+    </ul>
+  </div>
+  <div class="tabsOthers col-lg-4">  
+    <ul  class="complicatedDiv">
+      <li class="absoluteContainer">
+        <h5>Class 12th</h5>
+        <h6>DAV Public school</h6>
+        <p>CBSE</p>
+        <p>Science</p>
+        <p>Punjab</p>
+        <p>Completed in: 2018</p>
+        <h5>CGPA:9.2</h5>
+        
+      </li>
+    </ul>
+  </div>
+  <div class="tabsOthers col-lg-4">  
+    <ul  class="complicatedDiv">
+      <li class="absoluteContainer">
+        <h5>Class 10th</h5>
+        <h6>M.G.P School</h6>
+        <p>CBSE</p>
+        <p>Core Subjects +<b>Business Studies</b></p>
+        <p>Punjab</p>
+        <p>Schooling completed in: 2016</p>
+        <h5>CGPA:9.6</h5>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+<!--Eduction new ends-->  
+
+<!--Project section starts-->
+<section id="projects">
+<h1 style="font-weight: 700;" data-aos="fade-down">Projects</h1>
+<div class="project"  data-aos="fade-right">
+<div class="row">
+
+<div class="col-lg-4 " style="padding-bottom: 40px;">
+  
+<div class="container" style="padding-left: 0px; padding-right: 0px;">
+  <img src="images/resize-159380194785337408Screenshot6.png" alt="" class="image">
+
+<div class="overlay">Dev Connector</div>
+</div>
+<a href="https://shielded-inlet-01014.herokuapp.com/" class="btn-dark" target="_blank" rel="noreferrer noopener">
+  <i class="fa fa-eye">Project</i>
+</a>
+<a href="https://github.com/aroraaniket/Dev-Connector" class="btn-dark">
+  <i class="fa fa-github">Github</i>
+</a>
+ 
+</div>
+
+<div class="col-lg-4 " style="padding-bottom: 40px;">
+  
+<div class="container" style="padding-left: 0px; padding-right: 0px;">
+  <img src="images/resize-15938504041831030609Screenshot7.png" alt="" class="image">
+
+<div class="overlay">Daily Blog</div>
+</div>
+<a href="https://arcane-dusk-81690.herokuapp.com/" class="btn-dark" target="_blank" rel="noreferrer noopener">
+  <i class="fa fa-eye">Project</i>
+</a>
+<a href="https://github.com/aroraaniket/Blog-Daily" class="btn-dark" target="_blank" rel="noreferrer noopener">
+  <i class="fa fa-github">Github</i>
+</a>
+ 
+</div>
+
+<div class="col-lg-4 ">
+  
+  <div class="container" style="padding-left: 0px; padding-right: 0px;">
+  <img src="images/resize-15938513261542194781Screenshot8.png" alt="" class="image">
+  
+  <div class="overlay"> To Do List</div>
+</div>
+  <a href="https://secure-fjord-22077.herokuapp.com/" class="btn-dark" target="_blank" rel="noreferrer noopener">
+    <i class="fa fa-eye">Project</i>
+  </a>
+  <a href="https://github.com/aroraaniket/Todo-List" class="btn-dark" target="_blank" rel="noreferrer noopener">
+    <i class="fa fa-github">Github</i>
+  </a>
+   
+</div>
+</div>
+</div>
+</section>   
+
+
+<!--Project section ends-->
